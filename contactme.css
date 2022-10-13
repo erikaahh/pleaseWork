@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+section#header {
+    position: relative;
+    top: 80px;
+    right: 350px;
+}
+
+section#header > p {
+    margin: 10px;
+    position: relative;
+    left: 50px;
+}
+
+div.formRow {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0px;
+}
+
+div.formRow > * {
+    flex: 1 1 100px;
+}
+
+
+form#survey {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 80px;
+}
+
+form#survey > fieldset {
+    background-color: aliceblue;
+    border-radius: 20px;
+    flex: 0.6 0.5 300px;
+    padding: 20px;
+    margin: 10px;
+}
+
+textarea {
+    height: 80px;
+}
+
+section#Info {
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: gray solid 2px;
+    width: 25%;
+    height: 67%;
+    position: absolute;
+    left: 1060px;
+    top: 160px;
+}
+
+section#Info > aside > p {
+    width: 65%;
+    margin-bottom:30px;
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+
+section#Info > h4 {
+    width: 80%;
+    position: relative;
+    top: 35px;
+    left: 40px;
+}
+
+
+
+footer {
+    position: relative;
+    top: 89px;
+    left: 220px;
+}
+
+
+
+
+

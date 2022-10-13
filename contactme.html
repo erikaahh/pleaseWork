@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1" />
+    <title>Welcome to my HTML Portforlio</title>
+    <link href="base.css" rel="stylesheet" />
+    <link href="contactme.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1>Portforlio</h1>
+
+        <nav id="links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="myworks.html">My Work</a></li>
+                <li><a href="contactme.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="header">
+        <h2>Contact Me!</h2>
+        <p>Please contact me or leave me some feedback!</p>
+    </section>
+
+    <section id="Info">
+        <h4> Please contect me if you have any questions!</h4>
+        <aside>
+            <p>
+            <strong>Loction:</strong> Great Falls, Motana
+            </p>
+            <p><strong>Phone:</strong> <a href="tel:+19562380056">(956) 238-0056</a></p>
+            <p><strong>Email:</strong><a href="erika.regalado31@gmail.com">erika.regalado31@gmail.com</a>
+            </p>
+        </aside>
+
+    </section>
+
+
+    <form id="survey" action="http://www.example.com/portforlio/survey" method="post">
+        <fieldset id="feedback">
+            <legend>Your feedback!</legend>
+
+            <div class="formRow">
+                <label for="name">Name</label>
+                <input name="feedbackName" id="name" type="text" />
+            </div>
+
+            <div class="formRow">
+                <label for="phone">Phone number</label>
+                <input name="feedbackPhone" id="phone" type="tel" />
+            </div>
+            <div class="formRow">
+                <label for="mail">E-mail</label>
+                <input name="feedbackMail" id="mail" type="email" />
+            </div>
+            <div class="formRow">
+                <label>Programming Languages you're interested in me doing.</label>
+                <select name="Programming">
+                    <option value="programming">Select option</option>
+                    <option value="programming1">HTML and CSS</option>
+                    <option value="programming2">Java</option>
+                    <option value="programming3">C</option>
+                    <option value="programming4">C++</option>
+                </select>
+            </div>
+            <div class="formRow">
+                <input name="feedbackMarkbox" value="markbox" type="checkbox" />
+                <label for="markbox">By marking the box, you'll receive messages for updates that may happen in this
+                    portforlio.</label>
+            </div>
+            <div class="formRow">
+                <label>Was my portforlio helpful? </label>
+                <fieldset class="optGroup">
+                    <label for="hYes">Yes</label>
+                    <input name="helpful" value="yes" id="hYes" type="radio" />
+
+
+                    <label for="hNo">No</label>
+                    <input name="helpful" value="no" id="hNo" type="radio" />
+                </fieldset>
+            </div>
+            <div class="formRow">
+                <label for="commBox">Message for me!</label>
+                <textarea name="feedbackMessage" id="commBox"></textarea>
+            </div>
+    </form>
+
+    
+
+
+
+
+
+    <footer>
+        <div class="socialLinks">
+            <a class="logolinks" href="https://twitter.com/" target="_blank">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a class="logolinks" href="https://www.instagram.com/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a class="logolinks" href="https://github.com/" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a class="logolinks" href="https://discord.com/" target="_blank">
+                <ion-icon name="logo-discord"></ion-icon>
+            </a>
+
+    </footer>
+
+</body>
+
+</html>

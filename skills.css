@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+table.skills {
+    background: aliceblue;
+    border: 6px outset rgb(23, 20, 20);
+    border-collapse: collapse;
+    font-size: 15px;
+    width: 80%;
+    margin-left:160px;
+    position: relative;
+    top: 120px;
+}
+
+table.skills th, table.skills td {
+    border: 2px solid  rgb(123, 122, 122);
+    padding: 10px;
+}
+table.skills th {
+    background-color: rgba(118, 116, 116, 0.688);
+}
+table.skills td {
+    text-align: center;
+}
+
+footer{
+    padding-top: 350px;
+}
+
+table.skills caption {
+    caption-side: top;
+    text-align: right;
+}

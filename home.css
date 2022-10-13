@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body p {
+    background: aliceblue;
+    height: 50%;
+    width: 28%;
+    text-align: center;
+    position: relative;
+    top: -250px;
+    left: 550px;
+
+}

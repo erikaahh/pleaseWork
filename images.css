@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+section#photo1 > figure > img{
+    width: 250px;
+    margin-top: 150px;
+    margin-left: -100px;
+    box-shadow: rgba(2, 2, 2, 0.4) 0px 0px 20px 10px;
+}
+
+section#photo2 > figure > img{
+    width: 300px;
+    float: right;
+    margin-top: -350px; 
+    margin-right: 250px; 
+    box-shadow: rgba(2, 2, 2, 0.4) 0px 0px 20px 10px;  
+
+}
+
+section#photo3 > figure > img{
+    width:380px;
+    box-shadow: rgba(2, 2, 2, 0.4) 0px 0px 20px 10px;
+    float: right;
+    position: relative;
+    top: 165px;
+    right: 400px;
+}

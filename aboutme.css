@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+section.background > main {
+    display: block;
+    background: aliceblue;
+    height: 420px;
+    width: 28%;
+    position: absolute;
+    top: 100px;
+    left: 210px;
+}
+
+section.background > main > p {
+    width: 65%;
+    margin-left: 49px;
+    margin-top: 15px;
+}
+
+section.background > main > h2 {
+    margin-left: 110px;
+    margin-top: 25px;
+}
+
+section#education > article {
+    display: block;
+    background: aliceblue;
+    height: 290px;
+    width: 35%;
+    position: absolute;
+    left: 890px;
+    top:365px
+}
+section#education > article > ul {
+    width: 78%;
+    margin-left: 15%;
+}
+
+section#education > article > h2 {
+    margin-left: 190px;
+    margin-bottom: 15px; 
+    margin-top: 15px;
+}
+
+section#education li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+
+section#education li:before {
+    content: "\2724";
+}
+
+footer{
+    padding-top: 630px;
+}
